@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css\main.css">
+</head>
+
+<body>
+    <nav> <!-- Navbar-->
+        <ul>
+            <li><a class="active-page" href="home.html">Home</a></li>
+            <li><a href="mygames.html">My Games</a></li>
+            <li><a href="myteams.html">My Teams</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" style="text-decoration: underline">IMPORTANT!</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px;">John Han</h1>
+            <p><span style="text-decoration: line-through">Struggling</span> Aspiring Software Developer In Training</p>
+        </div>
+    </div>
+
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1><mark><u>A Very Important PSA</u></mark></h1>
+                <strong><small><u>Please read this</u></small></strong>
+                <p>Have you heard of the critically acclaimed MMORPG Final Fantasy XIV? With an expanded free trial which you can play through the entirety of A Realm Reborn and the award winning Heavensward expansion up to level 60 for free with no restrictions on playtime.</p>
+            </article>
+            
+            <article class="main-articles">
+                <h1>Spy x Family</h1>
+                <strong><small>Waku Waku</small></strong>
+                <figure>
+                    <img src="https://i.kym-cdn.com/photos/images/original/002/366/686/77a.png"
+                        style="max-width: 80%"
+                        class="centered">
+                    <figcaption style="text-align: center"><em>Supreme smugness from adopted daughter, Anya Forger.</em></figcaption>
+                </figure>
+                <p>"The story follows a spy who has to 'build a family' to execute a mission, not realizing that the girl he adopts as his daughter is a telepath, and the woman he agrees to be in a marriage with is a skilled assassin." I think it's an endearing series while still maintaining an element of excitement, and I've been rather enjoying it so far.</p>
+            </article>
+
+            <article class="main-articles">
+                <h1>London Calling</h1>
+                <strong><small>The Broncos are in London for their Week 8 matchup against the Jaguars.</small></strong>
+                <div style="text-align: center;">
+                    <br>
+                    <iframe width="784" height="441" src="https://www.youtube.com/embed/L-2D0ZZmhoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <bottom>
+        <div id="bottom"> <!-- Bottom-->
+            <div class="row">
+                <article id ="profile" class="bottom-articles">
+                    <img id="profile-image" 
+                        src="images/profile.jpg"
+                        style="max-width: 100%"> 
+                    <div id="profile-details">
+                        <h2>John Han</h2>
+                        <ul>
+                            <li>42 Wallaby Way</li>
+                            <li>Houston, TX 12345</li>
+                            <li>555-555-5555</li>
+                            <li><a href="mailto:">johan@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="bottom-articles">
+                    <h1>Background</h1>
+                    <p>Was born in Korea and moved to Texas at the age of 6. I grew up playing music (saxophone, guitar, bass) and video games. 
+                        I graduated from Texas A&M University with a Bachelor of Science in Chemical Engineering. </p>
+                </article>
+
+                <article class="bottom-articles">
+                    <h1>Experience</h1>
+                    <p>I worked a couple of years as a field engineer in the oilfields before making a change towards the technology sector. 
+                        Went on to get my A+ cert and work in IT support for 4-5 years trying to make it into system administration/engineering.
+                    </p>
+                </article>
+
+                <article class="bottom-articles">
+                    <h1>Contact Me</h1>
+                    <strong><small>Drop me a line below:</small></strong>
+                    <br>
+                    <br>
+                    <form action="mailto:" method="POST">
+                        <label for="name"><strong>Name</strong></label>
+                        <br>
+                        <input type="text" id="name" placeholder="Your Name" size="41">
+                        <br>
+                        <br>
+                        <label for="message"><strong>Message</strong></label>
+                        <br>
+                        <textarea id="message" placeholder="Your Message" rows="5" cols="35"></textarea>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </bottom>
+
+    <footer>
+        <div>
+            &copy John Han 2022
+        </div>
+    </footer>
+</body>
+</html>
